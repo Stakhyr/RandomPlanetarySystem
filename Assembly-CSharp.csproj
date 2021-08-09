@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A513BC8D-6A7D-D6C5-EEBE-D27CF600D276}</ProjectGuid>
+    <ProjectGuid>{ED558555-7CFE-1154-77C4-81942055D01A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -607,39 +607,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{A5A2E480-F463-FE80-10F4-FC692EE9C2E2}</Project>
+      <Project>{65A2CD2F-2091-4A07-B125-40F0F91DEF18}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{FCCC7628-9FD8-E2FE-6CEB-7807C7673D35}</Project>
+      <Project>{F6C44C3E-48E9-7789-D09B-033FCFC84C2B}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{4DDD15EE-5F87-BBB6-2F7B-CD078445F782}</Project>
+      <Project>{26AD7378-9812-E7C8-7C8E-27EEA4D53DF6}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{845EE9BF-2D5D-2068-C4B1-30686AF1FEE6}</Project>
+      <Project>{17C384EF-2DF2-C9F9-3DAD-9CB63609A6FA}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{2031CB61-E7A5-8419-C841-47FD77EC67C5}</Project>
+      <Project>{2BED002A-BBF2-A5CC-1479-DDF15D8704D1}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
-      <Project>{824857F7-0015-5FD4-AAC2-C55E907C7F24}</Project>
+      <Project>{FA2E87F4-344E-22FE-36AF-A576F68C50E1}</Project>
       <Name>Unity.CollabProxy.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{D1B1BAB2-AA63-C19D-0E89-99D240CDB0B3}</Project>
+      <Project>{41A28B43-B749-9C9D-0012-2D89D5105095}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{CC7D08B9-280A-8D55-FB9B-B860D34CC830}</Project>
+      <Project>{2D6FF5B9-CB44-04F6-F798-FC56DEDAAB1F}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{1EE1190E-24C7-0804-308C-9D336EC3D0D3}</Project>
+      <Project>{982734B8-9BE4-A940-8662-CA326454C606}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>

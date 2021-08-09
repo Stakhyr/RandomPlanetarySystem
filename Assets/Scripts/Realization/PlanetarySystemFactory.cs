@@ -11,7 +11,7 @@ class PlanetarySystemFactory : IPlanetarySystemFactory
 
         var currentMass = mass;
         var planetaryObjects = new List<IPlanetaryObject>();
-        double previousRadius = 0;
+        double previousRadius = 10;
         double previousZOffset = 0;
         for (int i = 0; i < count; i++)
         {
@@ -35,13 +35,13 @@ class PlanetarySystemFactory : IPlanetarySystemFactory
     {
         switch (mass)
         {
-            case var _ when mass < 0 && mass > 0.00001:    return MassClassEnum.Asteroidan;
-            case var _ when mass < 0.00001 && mass > 0.1:  return MassClassEnum.Mercurian;
-            case var _ when mass < 0.1 && mass > 0.5:      return MassClassEnum.Subterran;
-            case var _ when mass < 0.5 && mass > 2:        return MassClassEnum.Terran;
-            case var _ when mass < 2 && mass > 10:         return MassClassEnum.Superterran;
-            case var _ when mass < 10 && mass > 50:        return MassClassEnum.Neptunian;
-            case var _ when mass < 50 && mass > 100:       return MassClassEnum.Jovian;
+            case var _ when mass > 0 && mass < 0.00001:    return MassClassEnum.Asteroidan;
+            case var _ when mass > 0.00001 && mass < 0.1:  return MassClassEnum.Mercurian;
+            case var _ when mass > 0.1 && mass < 0.5:      return MassClassEnum.Subterran;
+            case var _ when mass > 0.5 && mass < 2:        return MassClassEnum.Terran;
+            case var _ when mass > 2 && mass < 10:         return MassClassEnum.Superterran;
+            case var _ when mass > 10 && mass < 50:        return MassClassEnum.Neptunian;
+            case var _ when mass > 50 && mass < 100:       return MassClassEnum.Jovian;
 
             default: return MassClassEnum.Jovian;
         }
@@ -59,7 +59,7 @@ class PlanetarySystemFactory : IPlanetarySystemFactory
             case MassClassEnum.Neptunian:       return Random.Range(2.1f, 5.7f);
             case MassClassEnum.Jovian:          return Random.Range(3.5f, 27f);
 
-            default: return Random.Range(12f, 14f);
+            default: return Random.Range(3.5f, 27f);
         };
     }
 

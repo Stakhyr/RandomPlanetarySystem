@@ -21,9 +21,9 @@ class PlanetaryObject :MonoBehaviour, IPlanetaryObject
     }
 
     //body motion in orbit
-    public void Move(float deltaTime,double mass)
+    public void Move(float deltaTime/*,double mass*/)
     {
-        planataryObject.transform.RotateAround(new Vector3(0,0,0), Vector3.up, 10 * (float)mass * deltaTime);
+        planataryObject.transform.RotateAround(new Vector3(0,0,0), Vector3.up, 10 * (float)Mass * deltaTime);
     }
 
 

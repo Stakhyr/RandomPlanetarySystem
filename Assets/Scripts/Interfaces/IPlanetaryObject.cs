@@ -7,7 +7,7 @@ interface IPlanetaryObject
     double Mass { get;  }
     MassClassEnum MassClass { get; }
 
-    void Move(float deltaTime, double mass);
+    void Move(float deltaTime);
 }
 
 enum MassClassEnum

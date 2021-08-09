@@ -16,7 +16,7 @@ class PlanetarySystem :MonoBehaviour, IPlanetarySystem
     {
         foreach(var planetaryObject in PlanetaryObjects) 
         {
-            planetaryObject.Move(deltaTime,planetaryObject.Mass);
+            planetaryObject.Move(deltaTime);
         }
     }
 }
